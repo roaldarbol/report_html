@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4.4 Ground Reaction Forces | Biomechanical Report</title>
+  <meta name="description" content="Biomechanical report" />
+  <meta name="generator" content="bookdown 0.18 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4.4 Ground Reaction Forces | Biomechanical Report" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Biomechanical report" />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4.4 Ground Reaction Forces | Biomechanical Report" />
+  
+  <meta name="twitter:description" content="Biomechanical report" />
+  
+
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="angular-velocity.html"/>
+<link rel="next" href="conclusion.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/bsTable-3.3.7/bootstrapTable.min.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="libs/plotly-binding-4.9.2.1/plotly.js"></script>
+<script src="libs/typedarray-0.1/typedarray.min.js"></script>
+<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
+<link href="libs/plotly-htmlwidgets-css-1.52.2/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="libs/plotly-main-1.52.2/plotly-latest.min.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><img src="figures/logo-transparent.png" width="240" style="margin:30px"></li> 
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Biomechanical analysis</a></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Preface</a></li>
+<li class="part"><span><b>I Background</b></span></li>
+<li class="chapter" data-level="2" data-path="biomechanics-101.html"><a href="biomechanics-101.html"><i class="fa fa-check"></i><b>2</b> Biomechanics 101</a></li>
+<li class="chapter" data-level="3" data-path="triple-jump.html"><a href="triple-jump.html"><i class="fa fa-check"></i><b>3</b> Triple Jump</a><ul>
+<li class="chapter" data-level="3.1" data-path="key-performance-indicators.html"><a href="key-performance-indicators.html"><i class="fa fa-check"></i><b>3.1</b> Key Performance Indicators</a></li>
+</ul></li>
+<li class="part"><span><b>II Results</b></span></li>
+<li class="chapter" data-level="4" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>4</b> Introduction</a><ul>
+<li class="chapter" data-level="4.1" data-path="key-performance-indicators-1.html"><a href="key-performance-indicators-1.html"><i class="fa fa-check"></i><b>4.1</b> Key Performance Indicators</a></li>
+<li class="chapter" data-level="4.2" data-path="center-of-mass-velocity.html"><a href="center-of-mass-velocity.html"><i class="fa fa-check"></i><b>4.2</b> Center of Mass Velocity</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="center-of-mass-velocity.html"><a href="center-of-mass-velocity.html#horizontal-velocity"><i class="fa fa-check"></i><b>4.2.1</b> Horizontal velocity</a></li>
+<li class="chapter" data-level="4.2.2" data-path="center-of-mass-velocity.html"><a href="center-of-mass-velocity.html#vertical-velocity"><i class="fa fa-check"></i><b>4.2.2</b> Vertical velocity</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="angular-velocity.html"><a href="angular-velocity.html"><i class="fa fa-check"></i><b>4.3</b> Angular Velocity</a><ul>
+<li class="chapter" data-level="4.3.1" data-path="angular-velocity.html"><a href="angular-velocity.html#hip-velocity"><i class="fa fa-check"></i><b>4.3.1</b> Hip velocity</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="ground-reaction-forces.html"><a href="ground-reaction-forces.html"><i class="fa fa-check"></i><b>4.4</b> Ground Reaction Forces</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="conclusion.html"><a href="conclusion.html"><i class="fa fa-check"></i><b>5</b> Conclusion</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Biomechanical Report</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="ground-reaction-forces" class="section level2">
+<h2><span class="header-section-number">4.4</span> Ground Reaction Forces</h2>
+<p>When we exert a force onto the ground, the ground exerts an equal, opposing force called the ground reaction force (GRF). This force is thus a precise measurement of the amount of force applied by the athlete to the ground.
+In a laboratory setting GRF are measured using force plates, which is not feasible in a typical stadium. They can however be estimated from kinematics using the center of mass and Newtons second law (<span class="math inline">\(F=m*a\)</span>).</p>
+<p> 
+<div id="htmlwidget-1ae5372ff6be16bbc18a" style="width:768px;height:288px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1ae5372ff6be16bbc18a">{"x":{"data":[{"x":[0,8.33333333333333,16.6666666666667,25,33.3333333333333,41.6666666666667,50,58.3333333333333,66.6666666666667,75,83.3333333333333,91.6666666666667,100,108.333333333333,116.666666666667,125,133.333333333333,141.666666666667],"y":[0,2.14246853035173,2.70929320312443,3.05271570566941,3.14506843769359,3.11894956286817,3.18773440977663,3.49027914300854,3.95910140160155,4.3893353126112,4.59882601222083,4.49627061269632,4.10150360220685,3.4739694351834,2.68270588858541,1.90175020102605,1.31770470214625,0],"mode":"lines","line":{"color":"rgba(31,119,180,1)","shape":"spline"},"name":"Hop","type":"scatter","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0,8.33333333333333,16.6666666666667,25,33.3333333333333,41.6666666666667,50,58.3333333333333,66.6666666666667,75,83.3333333333333,91.6666666666667,100,108.333333333333,116.666666666667,125,133.333333333333,141.666666666667,150,158.333333333333,166.666666666667],"y":[0,5.9697630475492,7.20864992945717,7.15456882521457,5.85316836601586,4.11897295647986,2.93072702147744,2.79633400780256,3.49824689819539,4.33372488169699,4.7266648126589,4.57762223004695,4.12644973493094,3.66841451956394,3.35936805232935,3.18353959882317,3.0322316634754,2.7857061125911,2.3694585520026,1.81401440579244,0],"mode":"lines","line":{"color":"rgba(255,127,14,1)","shape":"spline"},"name":"Step","type":"scatter","marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x2","yaxis":"y","frame":null},{"x":[0,8.33333333333333,16.6666666666667,25,33.3333333333333,41.6666666666667,50,58.3333333333333,66.6666666666667,75,83.3333333333333,91.6666666666667,100,108.333333333333,116.666666666667,125,133.333333333333,141.666666666667,150,158.333333333333,166.666666666667],"y":[0,4.9538171734423,5.81149305962703,6.34026072881286,6.67256585320555,6.88425605787524,6.86626764696169,6.46538733121819,5.73220041968325,4.94738998463066,4.33387474938239,3.87277145963077,3.43657976501829,2.95709736191226,2.44094387725417,1.91518522361484,1.40716826291122,0.937426421734423,0.522813327973656,0.195938533055834,0],"mode":"lines","line":{"color":"rgba(44,160,44,1)","shape":"spline"},"name":"Step","type":"scatter","marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x3","yaxis":"y","frame":null}],"layout":{"xaxis":{"domain":[0,0.313333333333333],"automargin":true,"title":"t","anchor":"y"},"xaxis2":{"domain":[0.353333333333333,0.646666666666667],"automargin":true,"title":"t","anchor":"y"},"xaxis3":{"domain":[0.686666666666667,1],"automargin":true,"title":"t","anchor":"y"},"yaxis":{"domain":[0,1],"automargin":true,"title":"vGRF BW","anchor":"x"},"annotations":[],"shapes":[],"images":[],"margin":{"b":40,"l":60,"t":25,"r":10},"hovermode":"closest","showlegend":false,"title":"Vertical ground reaction force (vGRF)"},"attrs":{"ab81c32e863":{"x":{},"y":{},"mode":"lines","line":{"shape":"spline"},"name":"Hop","colors":"#000004FF","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"},"ab85236ca0b":{"x":{},"y":{},"mode":"lines","line":{"shape":"spline"},"name":"Step","colors":"#000004FF","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"},"ab8b0ac258":{"x":{},"y":{},"mode":"lines","line":{"shape":"spline"},"name":"Step","colors":"#000004FF","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"source":"A","config":{"showSendToCloud":false},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"subplot":true,"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+ </p>
+<blockquote>
+<p><strong>Comment</strong>: Again, the jump is the phase which demands attention. The vertical forces produced during the hop and step look very reasonable (and in agreement with recorded GRF <span class="citation">[<a href="references.html#ref-Ramey1985">14</a>]</span>). The second peak of the jump GRF doesn’t appear. Thus, there is apparent room for improvement!</p>
+</blockquote>
+<p> </p>
+<div id="htmlwidget-5621ec03ea5b65a6e15f" style="width:768px;height:288px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-5621ec03ea5b65a6e15f">{"x":{"data":[{"x":[0,8.33333333333333,16.6666666666667,25,33.3333333333333,41.6666666666667,50,58.3333333333333,66.6666666666667,75,83.3333333333333,91.6666666666667,100,108.333333333333,116.666666666667,125,133.333333333333,141.666666666667],"y":[0,-1.67858130507393,-2.25453782104201,-2.49841040892208,-2.11370188437746,-1.04257567422086,0.323661262757277,1.48297337832114,2.24070287723363,2.62144709947692,2.66324162513336,2.44144988528906,2.08844549500402,1.72067358272335,1.40151082576266,1.16056339382304,1.01100795055454,0],"mode":"lines","line":{"color":"rgba(31,119,180,1)","shape":"spline"},"name":"Hop","type":"scatter","marker":{"color":"rgba(31,119,180,1)","line":{"color":"rgba(31,119,180,1)"}},"error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0,8.33333333333333,16.6666666666667,25,33.3333333333333,41.6666666666667,50,58.3333333333333,66.6666666666667,75,83.3333333333333,91.6666666666667,100,108.333333333333,116.666666666667,125,133.333333333333,141.666666666667,150,158.333333333333,166.666666666667],"y":[0,-1.9397821093338,-2.48253885168933,-2.55783004413368,-2.08857415160771,-1.33656028637919,-0.618071724229723,-0.0264963225830808,0.496307285615753,0.952725390660772,1.23337801072602,1.27467472073507,1.19267240461284,1.16798580616993,1.26520514301404,1.45146643022589,1.68471816873179,1.89163009811376,1.97380344666762,1.89231750470045,0],"mode":"lines","line":{"color":"rgba(255,127,14,1)","shape":"spline"},"name":"Step","type":"scatter","marker":{"color":"rgba(255,127,14,1)","line":{"color":"rgba(255,127,14,1)"}},"error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x2","yaxis":"y","frame":null},{"x":[0,8.33333333333333,16.6666666666667,25,33.3333333333333,41.6666666666667,50,58.3333333333333,66.6666666666667,75,83.3333333333333,91.6666666666667,100,108.333333333333,116.666666666667,125,133.333333333333,141.666666666667,150,158.333333333333,166.666666666667],"y":[0,0.693889739854578,0.430006838703698,0.0486529462597866,-0.389515662817189,-0.735968253005651,-0.834118861078966,-0.638628112332374,-0.245398956083648,0.160162617321212,0.415048648402109,0.478409853708021,0.455266430521873,0.532956445843498,0.817418170785362,1.24007278335802,1.65563930849016,1.95378447273184,2.07655339008981,2.02732125756886,0],"mode":"lines","line":{"color":"rgba(44,160,44,1)","shape":"spline"},"name":"Step","type":"scatter","marker":{"color":"rgba(44,160,44,1)","line":{"color":"rgba(44,160,44,1)"}},"error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x3","yaxis":"y","frame":null}],"layout":{"xaxis":{"domain":[0,0.313333333333333],"automargin":true,"title":"t","anchor":"y"},"xaxis2":{"domain":[0.353333333333333,0.646666666666667],"automargin":true,"title":"t","anchor":"y"},"xaxis3":{"domain":[0.686666666666667,1],"automargin":true,"title":"t","anchor":"y"},"yaxis":{"domain":[0,1],"automargin":true,"title":"hGRF BW","anchor":"x"},"annotations":[],"shapes":[],"images":[],"margin":{"b":40,"l":60,"t":25,"r":10},"hovermode":"closest","showlegend":false,"title":"Horizontal ground reaction force (hGRF)"},"attrs":{"ab84c2cb835":{"x":{},"y":{},"mode":"lines","line":{"shape":"spline"},"name":"Hop","colors":"#000004FF","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"},"ab8bf1c6a5":{"x":{},"y":{},"mode":"lines","line":{"shape":"spline"},"name":"Step","colors":"#000004FF","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"},"ab82e2880c3":{"x":{},"y":{},"mode":"lines","line":{"shape":"spline"},"name":"Step","colors":"#000004FF","alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"scatter"}},"source":"A","config":{"showSendToCloud":false},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"subplot":true,"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+
+</div>
+<!-- </div> -->
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="angular-velocity.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="conclusion.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["report.pdf", "report.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
